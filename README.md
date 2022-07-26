@@ -4,10 +4,10 @@
 #### 팀
 BeanCup
 #### 팀원
-IoT : 김민선, 허소연
-AI : 김태호, 석병길, 이창훈, 장성원
-Bigdata : 강지우, 이영준
-Cloud : 여동엽
+IoT : 김민선, 허소연<br>
+AI : 김태호, 석병길, 이창훈, 장성원<br>
+Bigdata : 강지우, 이영준<br>
+Cloud : 여동엽<br>
 <br>
 <br>
 <br>
@@ -72,4 +72,5 @@ Cloud : 여동엽
 ![image](https://user-images.githubusercontent.com/99372135/181046362-23bc2d5b-b81b-476c-8b03-54cafc31dd6c.png)
 
 Click [here](https://youtu.be/cPqC5afyG90)
+[https://youtu.be/cPqC5afyG90]
 
