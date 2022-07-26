@@ -8,9 +8,9 @@ IoT : 김민선, 허소연
 AI : 김태호, 석병길, 이창훈, 장성원
 Bigdata : 강지우, 이영준
 Cloud : 여동엽
-
-
-
+<br>
+<br>
+<br>
 ### 프로젝트 설명
 #### 1. 프로젝트 주제
 일회용컵 보증금제를 보완할 수 있는 무인 회수기
@@ -37,16 +37,16 @@ Cloud : 여동엽
 <img width="400" alt="통신" src="https://user-images.githubusercontent.com/99372135/181041721-d64d92c4-c5f8-4834-8c39-82eed40b4d60.png">
 
  * IoT
-  * 웹
+  1. 웹
      - restAPI 구성하여 kiosk, 앱과 http 통신
-  * 앱(kiosk)
+  2. 앱(kiosk)
      - 컵 사진 표시
      - http통신을 통해 사용자 정보 가져오기
      - mqtt를 통해 라즈베리파이 #1,2 작동
-  * 앱(사용자용)
+  3. 앱(사용자용)
      - 사용자 가입
      - 적립 내역 확인
-  * 라즈베리파이 #1
+  4. 라즈베리파이 #1
      - pi camera, push button과 연결
      - mqtt통신으로 사진 전송
      - 상태 good/bad, 브랜드인식(starbucks, Ediya, Twosome) 가능한 AI모델 이식(tensorflow lite)
