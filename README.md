@@ -1,9 +1,8 @@
 # 카페 일회용 컵(플라스틱 컵) 보증금 반환기
-## 융합프로젝트(IoT, AI, Bigdata, Cloud) in MultiCampus
+### 융합프로젝트(IoT, AI, Bigdata, Cloud) in MultiCampus
 
 #### 팀
 BeanCup
-
 #### 팀원
 IoT : 김민선, 허소연
 AI : 김태호, 석병길, 이창훈, 장성원
@@ -32,8 +31,9 @@ Cloud : 여동엽
 <img width="400" alt="계획" src="https://user-images.githubusercontent.com/99372135/181041513-092ec814-4f74-4059-bd4f-05d5ea55b1bd.png">
 
 #### 4. 아키텍처
-![순서도](https://user-images.githubusercontent.com/99372135/181041607-215652b0-9d55-4ca7-a56a-85a3a36788c3.jpg)
-![프로젝트 아키텍처(최종)](https://user-images.githubusercontent.com/99372135/181041721-d64d92c4-c5f8-4834-8c39-82eed40b4d60.png)
+<img width="400" alt="순서도" src="https://user-images.githubusercontent.com/99372135/181041607-215652b0-9d55-4ca7-a56a-85a3a36788c3.jpg">
+<img width="400" alt="통신" src="https://user-images.githubusercontent.com/99372135/181041721-d64d92c4-c5f8-4834-8c39-82eed40b4d60.png">
+
  * IoT
   ** 웹
      - restAPI 구성하여 kiosk, 앱과 http 통신
