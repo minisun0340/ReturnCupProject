@@ -71,6 +71,6 @@ Cloud : 여동엽<br>
 #### 6. 시연 영상
 ![image](https://user-images.githubusercontent.com/99372135/181046362-23bc2d5b-b81b-476c-8b03-54cafc31dd6c.png)
 
-Click [here](https://youtu.be/cPqC5afyG90)
-[https://youtu.be/cPqC5afyG90]
+Click [here](https://youtu.be/cPqC5afyG90)<br>
+<ul>https://youtu.be/cPqC5afyG90</ul>
 
