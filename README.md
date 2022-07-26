@@ -29,8 +29,45 @@ Cloud : 여동엽
 이를 해결하기 위해 빈컵 프로젝트에서는 라벨링을 쓰지 않고 AI를 활용하여 브랜드 이름 인식하고, IoT장비를 이용하여 자동 세척 기능을 포함한다. 
 
 #### 3. 프로젝트 계획
-#### 4. 아키텍처
-#### 5. 테스트 시나리오
-#### 6. 시연 영상
+<img width="400" alt="계획" src="https://user-images.githubusercontent.com/99372135/181041513-092ec814-4f74-4059-bd4f-05d5ea55b1bd.png">
 
+#### 4. 아키텍처
+![순서도](https://user-images.githubusercontent.com/99372135/181041607-215652b0-9d55-4ca7-a56a-85a3a36788c3.jpg)
+![프로젝트 아키텍처(최종)](https://user-images.githubusercontent.com/99372135/181041721-d64d92c4-c5f8-4834-8c39-82eed40b4d60.png)
+ * IoT
+  ** 웹
+     - restAPI 구성하여 kiosk, 앱과 http 통신
+  ** 앱(kiosk)
+     - 컵 사진 표시
+     - http통신을 통해 사용자 정보 가져오기
+     - mqtt를 통해 라즈베리파이 #1,2 작동
+  ** 앱(사용자용)
+     - 사용자 가입
+     - 적립 내역 확인
+  ** 라즈베리파이 #1
+     - pi camera, push button과 연결
+     - mqtt통신으로 사진 전송
+     - 상태 good/bad, 브랜드인식(starbucks, Ediya, Twosome) 가능한 AI모델 이식(tensorflow lite)
+  ** 라즈베리파이 #2
+     - arduino와 serial 통신
+     - arduino에 워터펌프 연결하여 컵 세척
+     - servo모터로 브랜드에 따라 컵 분류
+ * AI
+ * Bigdata
+ * Cloud
+ 
+#### 5. 테스트 시나리오
+1. 키오스크의 시작하기 버튼을 누른다.
+2. 안내 음성에 따라 뚜껑, 빨대, 홀더 등을 제거한다.
+3. 화면에 브랜드가 인식되도록 가져다 댄 후 버튼을 누른다.
+4. 인식된 브랜드와 실제 컵의 브랜드가 일치하면 확인 버튼을 누른다.
+5. 안내음성에 따라 입구에 컵을 넣는다.
+6. 키오스크에 휴대폰 번호를 입력한다.
+7. 본인의 이름이 맞다면 확인 버튼을 누른다.
+8. 포인트 적립 완료
+
+#### 6. 시연 영상
+![image](https://user-images.githubusercontent.com/99372135/181046362-23bc2d5b-b81b-476c-8b03-54cafc31dd6c.png)
+
+Click [here](https://youtu.be/cPqC5afyG90)
 
